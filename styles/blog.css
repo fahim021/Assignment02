@@ -47,7 +47,7 @@ h1{
     width: 80%;
       
 }
-.blogs p{
+.blogs .para p{
     margin-bottom: 50px;
     color: white;
     
@@ -285,7 +285,7 @@ h1{
         height: 175px;
     }
   
-    .blogs p{
+    .blogs .para p{
         margin-bottom: 50px;
         color: white;
         text-align: center;
