@@ -1,9 +1,17 @@
-
+/* top banner */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
 
     
+
+}
+
+
+.container-1{
+    
+        margin: 0 auto;
+        width: 85%;
 
 }
 .container{
@@ -65,18 +73,15 @@ margin-bottom: 50px;
     
 }
 
-
 /* blogs items */
-
 .blogs-item{
     border: 1px solid #E8E8E8;
     border-radius: 10px;
     background-color: #ffffff; 
-    /* width: 312px; */
+    width: 312px;
     height: 362px;
-    /* margin-left: 10px;
-    margin-right: 10px;  */
-      
+    margin-left: 10px;
+    margin-right: 10px;   
          
     
 
@@ -106,6 +111,23 @@ margin-bottom: 50px;
 .menu{
     background: #161616;
     border-radius: 10px;
+    width:100%;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.menu-section {
+    display:flex;
+    justify-content: space-between;
+    
+}
+/* --------menu button------- */
+.menu{
+    background: #161616;
+    border-radius: 10px;
    width: 100%;
     height: 312px;
     display: flex;
@@ -130,21 +152,33 @@ margin-bottom: 50px;
     color: rgb(255, 255, 255);
 }
 
-
-.menu-section{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    width: 90%;
-}
-.menu-item{
-    
+/* match details */
+.match-details{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 20px;
-    grid-column-gap: 20px;
+    gap: 24px;
+}
+.match{
+    display: flex;
+    padding-left: 20px;
     
 }
+.match p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.match-info{
+    text-align: center;
+    border: 1px solid gray;
+    padding: 52px 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+#match-box{
+    flex-grow: 1;
+}
+
 
 
 /* =-----------FooteR---------------- */
@@ -181,6 +215,7 @@ footer p,h2{
     padding-right: 10px;
     color: #E8E8E8;
 }
+
 /* ------------------media quarys-------- */
 
 /* mobile device */
@@ -206,7 +241,10 @@ footer p,h2{
     
     
 }
-
+.match-details{
+    display: block;
+  
+}
 .footer-details{
     display: block;
     
@@ -255,6 +293,12 @@ h1{
     .button{
         width: 55%;
         margin: 0 auto;
+        
+    }
+
+    .menu-section {
+        display:block;
+        
         
     }
 }
